@@ -47,11 +47,12 @@
 ```mermaid
 flowchart LR
     RL["RunLogger<br/>Objective-C・GPSログ"] --> GDE["GeoDiveExa<br/>C# / .NET MAUI・RTK-GNSS"]
+    GDE --> NAVI["視覚障害者向け歩行者ナビ（受託）<br/>画像認識＋音声操作・iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI機能テスト（Flutter / SwiftUI）"]
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
 ```
 
-RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後 **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
+RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後、受託で**視覚障害者向けの歩行者ナビ**（目の代わりに *画像認識*、操作は *音声* で行う iOS アプリ）を開発しました。さらに **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
 
 ---
 
