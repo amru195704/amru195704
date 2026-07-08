@@ -33,6 +33,8 @@
 | プロジェクト | 内容 |
 | --- | --- |
 | [**UwView**](https://github.com/amru195704/UwView) | 最大2億行クラスの巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 |
+| [**runlogger**](https://github.com/amru195704/runlogger) | ランニングの GPS ログを記録して地図に表示するアプリ（Flutter / Dart。旧 Objective-C 版のリメイク） |
+| [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | ランニングロガーの SwiftUI 版 |
 
 ---
 
