@@ -52,7 +52,7 @@
 - **言語**: C / C++ / Python / C# / Swift
 - **iOS**: Swift / SwiftUI / MapKit
 - **クロスプラットフォーム**: .NET MAUI（現場アプリ）・Avalonia UI（デスクトップ / WASM）・Flutter
-- **ドメイン**: CAD / GIS・RTK-GNSS 測位・測地系変換（TKY2JGD / セミダイナミック / pos2jgd）・座標系投影
+- **ドメイン**: CAD（CATV 設計 / カーナビ用地図データ作成）・GIS・RTK-GNSS 測位・測地系変換（TKY2JGD / セミダイナミック / pos2jgd）・座標系投影
 
 ---
 
