@@ -1,15 +1,17 @@
 <h1 align="center">丸山祐治 — y4u</h1>
 
 <p align="center">
-  測量士・土地家屋調査士のための iOS / クロスプラットフォームアプリを作っています。<br>
-  <em>Building precision-survey &amp; geodesy apps for iOS and desktop.</em>
+  CAD / GIS・エンジニアリング領域を中心に、事務系以外のソフトウェアを開発しています。<br>
+  現在は iOS / クロスプラットフォームの測量・測地アプリに注力中。<br>
+  <em>Software engineer in CAD/GIS and engineering domains — currently building geospatial apps for iOS &amp; desktop.</em>
 </p>
 
 <p align="center">
+  <img alt="C" src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+  <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?logo=csharp&logoColor=white">
   <img alt="Swift" src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white">
-  <img alt=".NET MAUI" src="https://img.shields.io/badge/.NET%20MAUI-512BD4?logo=dotnet&logoColor=white">
-  <img alt="Avalonia" src="https://img.shields.io/badge/Avalonia%20UI-8B44AC?logo=dotnet&logoColor=white">
-  <img alt="RTK-GNSS" src="https://img.shields.io/badge/RTK--GNSS-1F6FE8">
 </p>
 
 ---
@@ -38,11 +40,18 @@
 
 ---
 
+## 👤 バックグラウンド
+
+- **主分野**: CAD / GIS・エンジニアリング系ソフトウェア開発（事務系以外）
+- **資格**: 第１級無線技術者
+- **現在**: iOS / クロスプラットフォームの測量・測地アプリ開発
+
 ## 🛠 技術スタック
 
+- **言語**: C / C++ / Python / C# / Swift
 - **iOS**: Swift / SwiftUI / MapKit
-- **クロスプラットフォーム**: C# / .NET MAUI（現場アプリ）・Avalonia UI（デスクトップ / WASM）
-- **ドメイン**: RTK-GNSS 測位・測地系変換（TKY2JGD / セミダイナミック / pos2jgd）・座標系投影
+- **クロスプラットフォーム**: .NET MAUI（現場アプリ）・Avalonia UI（デスクトップ / WASM）・Flutter
+- **ドメイン**: CAD / GIS・RTK-GNSS 測位・測地系変換（TKY2JGD / セミダイナミック / pos2jgd）・座標系投影
 
 ---
 
