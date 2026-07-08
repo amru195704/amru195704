@@ -40,6 +40,21 @@
 
 ---
 
+## 🧭 開発の歩み
+
+個人開発 iOS/クロスプラットフォームアプリは、GPS ログアプリ **RunLogger** を源流に進化してきました。
+
+```mermaid
+flowchart LR
+    RL["RunLogger<br/>Objective-C・GPSログ"] --> GDE["GeoDiveExa<br/>C# / .NET MAUI・RTK-GNSS"]
+    GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI機能テスト（Flutter / SwiftUI）"]
+    TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
+```
+
+RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後 **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
+
+---
+
 ## 👤 バックグラウンド
 
 - **経歴**: 40年以上のソフトウェア開発歴。CAD / GIS から電波・測地分野まで、事務系以外のエンジニアリング領域を専門にしています。
