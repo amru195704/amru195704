@@ -1,4 +1,4 @@
-<h1 align="center">丸山祐治 — y4u</h1>
+<h1 align="center">y4u</h1>
 
 <p align="center">
   CAD / GIS・エンジニアリング領域を中心に、事務系以外のソフトウェアを開発しています。<br>
