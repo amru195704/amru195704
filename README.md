@@ -30,13 +30,30 @@
 
 ---
 
-## 🧰 オープンソース
+## 📚 Kindle本（発売予定）
 
-| プロジェクト | 内容 |
-| --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | 最大2億行クラスの巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 |
-| [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） |
-| [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） |
+日本の測地系の仕組みを解説する書籍を2冊、Kindleで発売予定です。
+
+- 『日本の測地系がわかる』
+- 『日本の測地系がわかる　実装編』
+
+「実装編」の各章「Pythonで動かして確かめる」節で使うテスト用 Python スクリプトを [geodetic-book-py](geodetic-book-py/README.md) 以下に公開しています。
+
+---
+
+## 🧰 プロジェクト
+
+| プロジェクト | 内容 | ライセンス |
+| --- | --- | --- |
+| [**UwView**](https://github.com/amru195704/UwView) | 最大2億行クラスの巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 | [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
+| [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
+| [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
+
+> **UwView のライセンスについて**（この要約はライセンス本文に代わるものではありません）:
+>
+> - 個人、および企業の「社内業務利用」は無料です。
+> - 本ソフトウェアの頒布はできません（再配布・製品/サービスへの組込み・転売・第三者への提供・ホスティング提供・OEM 組込みは許可されません）。
+> - これらを行う場合は、作者から別途の商用（再配布/OEM）ライセンスが必要です。
 
 ---
 
