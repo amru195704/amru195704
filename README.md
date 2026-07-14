@@ -41,6 +41,15 @@
 
 ---
 
+## 📝 Note（販売中）
+
+- 『シン・二連環記　全部入り（本編＋副読本＋資料）』 [note.com](https://note.com/amru1957/m/m3e29b983efce)
+- 『シン・二連環記 ―日出ずる国の円環年代記』 [note.com](https://note.com/amru1957/m/m35656cfd33cc)
+- 『シン・二連環記 ―答え合わせ編―（種明かし・全2部）』 [note.com](https://note.com/amru1957/m/mcf8c0c2df60d)
+- 『円環年代記 オリジナル版・入門セット』 [note.com](https://note.com/amru1957/m/m460b0543b6ca)
+
+---
+
 ## 🧰 プロジェクト
 
 | プロジェクト | 内容 | ライセンス |
