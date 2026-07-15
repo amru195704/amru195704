@@ -26,7 +26,7 @@
 | **GeoPrism JP** | 測地系のズレやジオイドを地図・ヒートマップで可視化する学習アプリ | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
 | **GeoDiveExa** | RTK-GNSS 対応の高精度位置調査アプリ（座標変換エンジンの原点） | [Web](https://y42u.net/tec001/) |
 
-> **GeoConverter Pro** と **GeoPrism JP** は、GeoDiveExa から抽出した座標変換エンジン **GeoCore**（Swift Package）を共有しています。
+> **GeoConverter Pro** と **GeoPrism JP** は、GeoDiveExa から抽出した座標変換エンジン **GeoCoreJP**（Swift Package）を共有しています。
 
 ---
 
@@ -41,12 +41,26 @@
 
 ---
 
-## 📝 Note（販売中）
+## 📝 Note（歴史改変ファンタジー『シン・二連環記』）
 
-- 『シン・二連環記　全部入り（本編＋副読本＋資料）』 [note.com](https://note.com/amru1957/m/m3e29b983efce)
-- 『シン・二連環記 ―日出ずる国の円環年代記』 [note.com](https://note.com/amru1957/m/m35656cfd33cc)
-- 『シン・二連環記 ―答え合わせ編―（種明かし・全2部）』 [note.com](https://note.com/amru1957/m/mcf8c0c2df60d)
-- 『円環年代記 オリジナル版・入門セット』 [note.com](https://note.com/amru1957/m/m460b0543b6ca)
+戦国から現代のW杯まで、日本の400年を「円環の預言」で貫く歴史改変ファンタジー。
+
+**▶ まずはここから（無料）**
+
+- 【5分で分かる】超入門 ―はじめての方へ― [note.com](https://note.com/amru1957/n/nec43a60fb81d)
+- 何が“シン”なのか ―旧版からの増補まるわかり [note.com](https://note.com/amru1957/n/nd0dbb1f7cb56)
+- 2つのAIに読ませたら ―絶賛と、容赦ない酷評― [note.com](https://note.com/amru1957/n/n2217739bd6bb)
+
+**マガジン（まとめてお得）**
+
+- 全部入り（本編＋答え合わせ編＋設定資料集）(5冊) [note.com](https://note.com/amru1957/m/m3e29b983efce)
+- 本編『シン・二連環記 ―日出ずる国の円環年代記』（全2冊） [note.com](https://note.com/amru1957/m/m35656cfd33cc)
+- 答え合わせ編（種明かし・全2冊） [note.com](https://note.com/amru1957/m/mcf8c0c2df60d)
+- 円環年代記 オリジナル版・入門セット(8冊) [note.com](https://note.com/amru1957/m/m460b0543b6ca)
+
+**単品**
+
+- 設定資料集『守り人と十三の椅子』（光と影・保存版） [note.com](https://note.com/amru1957/n/n4a8037aa0754)
 
 ---
 
@@ -54,7 +68,7 @@
 
 | プロジェクト | 内容 | ライセンス |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | 最大2億行クラスの巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 | [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
+| [**UwView**](https://github.com/amru195704/UwView) | 最大９億行（までしか確認で来ていない）巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 現状の理論上最大行数は5500億行　| [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
