@@ -58,7 +58,7 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 | Project | Description | License |
 | --- | --- | --- |
 | [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (verified up to ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (macOS first)_ | A commercial, even-faster edition of UwView. A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial (one-time $129 / $9 per month) |
+| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (macOS first)_ | A commercial, even-faster edition of UwView. A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial ([**buy: one-time $129 / $9 per month (Polar)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)) |
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
 
@@ -68,7 +68,7 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 > - You may **not** distribute the software (redistribution, bundling into a product/service, resale, providing to third parties, hosting, or OEM embedding are not permitted).
 > - Those uses require a separate commercial (redistribution/OEM) license from the author.
 
-> **🚀 UwView Pro (available now, macOS first)** → [product page](https://uvp.y42u.net/pro/) (one-time $129 / $9 per month) — measured against the large-log viewer [klogg](https://klogg.filimonov.dev/) (OpenStreetMap Japan, 47.73 GB / 892,239,125 lines, external USB, 32 GB RAM, 10-core Mac; hit counts verified identical to klogg):
+> **🚀 UwView Pro (available now, macOS first)** → [product page](https://uvp.y42u.net/pro/) / [**buy (Polar, one-time $129 / $9 per month)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj) — measured against the large-log viewer [klogg](https://klogg.filimonov.dev/) (OpenStreetMap Japan, 47.73 GB / 892,239,125 lines, external USB, 32 GB RAM, 10-core Mac; hit counts verified identical to klogg):
 >
 > - **Re-open (2nd time on): 0.02–0.07 s** (klogg re-indexes every time, ~110 s = **1,500×+**)
 > - **Full-text search "Tokyo": 14.3 s** (klogg 120–135 s = **~9×**; ~8.6× case-insensitive, ~4.4× regex)

@@ -75,7 +75,7 @@
 | プロジェクト | 内容 | ライセンス |
 | --- | --- | --- |
 | [**UwView**](https://github.com/amru195704/UwView) | 最大９億行（までしか確認で来ていない）巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 現状の理論上最大行数は5500億行　| [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（macOS版先行）_ | UwView をさらに高速化した商用版。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（買い切り $129／月額 $9） |
+| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（macOS版先行）_ | UwView をさらに高速化した商用版。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（[**買い切り $129／月額 $9 を購入（Polar）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)） |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
@@ -85,7 +85,7 @@
 > - 本ソフトウェアの頒布はできません（再配布・製品/サービスへの組込み・転売・第三者への提供・ホスティング提供・OEM 組込みは許可されません）。
 > - これらを行う場合は、作者から別途の商用（再配布/OEM）ライセンスが必要です。
 
-> **🚀 UwView Pro（発売中・macOS版先行）** → [製品ページ](https://uvp.y42u.net/pro/)（買い切り $129／月額 $9） — 大容量ログビューア [klogg](https://klogg.filimonov.dev/) との実測比較（OpenStreetMap 日本全域 47.73GB・892,239,125 行、外付けUSB・RAM32GB・10コア Mac、検索ヒット数は klogg と厳密一致で相互検証済み）:
+> **🚀 UwView Pro（発売中・macOS版先行）** → [製品ページ](https://uvp.y42u.net/pro/) ／ [**購入（Polar・買い切り $129／月額 $9）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj) — 大容量ログビューア [klogg](https://klogg.filimonov.dev/) との実測比較（OpenStreetMap 日本全域 47.73GB・892,239,125 行、外付けUSB・RAM32GB・10コア Mac、検索ヒット数は klogg と厳密一致で相互検証済み）:
 >
 > - **2回目以降のオープン: 0.02〜0.07 秒**（klogg は毎回再索引 約110秒 ＝ **1,500倍以上**）
 > - **全文検索 "Tokyo": 14.3 秒**（klogg 120〜135秒 ＝ **約9倍**。大小無視で約8.6倍、正規表現で約4.4倍）
