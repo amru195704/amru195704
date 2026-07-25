@@ -38,7 +38,7 @@ Two books explaining how Japan's geodetic systems work, now available on Kindle 
 - [*Understanding Japan's Geodetic Systems*](https://www.amazon.co.jp/dp/B0H971W8WX) — why Japan's map coordinates keep shifting, told as one story from TOKYO to JGD2024
 - [*Understanding Japan's Geodetic Systems — Implementation*](https://www.amazon.co.jp/dp/B0H97LPNH3) — build a coordinate-conversion engine in Python and match GSI's official results to 1 mm
 
-> 🎁 The main volume is free for a limited time: Jul 20–24, 2026 (PDT).
+> 🎁 Both volumes are included in **Kindle Unlimited** (free to read for members).
 
 The test Python scripts used in the "Run it in Python to verify" sections of the Implementation volume are published under [geodetic-book-py](geodetic-book-py/README.md).
 

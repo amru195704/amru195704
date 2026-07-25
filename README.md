@@ -41,7 +41,7 @@
 | **『日本の測地系がわかる本』**（本編） | 地図の座標はなぜズレるのか。TOKYOからJGD2024まで、百数十年の「座標の引っ越し」を1本の物語で | [Amazon](https://www.amazon.co.jp/dp/B0H971W8WX) |
 | **『日本の測地系がわかる本（実装編）』** | 座標変換エンジンをPythonで作って、国土地理院の計算と1mmで一致させる | [Amazon](https://www.amazon.co.jp/dp/B0H97LPNH3) |
 
-> 🎁 本編は **2026/7/20(月) 16:00 〜 7/25(土) 15:59（日本時間）** の期間限定で無料キャンペーンを実施します。
+> 🎁 本編・実装編とも **Kindle Unlimited 対象**（会員は追加料金なしで読めます）。
 
 「実装編」の各章「Pythonで動かして確かめる」節で使うテスト用 Python スクリプトを [geodetic-book-py](geodetic-book-py/README.md) 以下に公開しています。
 
