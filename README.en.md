@@ -82,7 +82,9 @@ My personal iOS / cross-platform apps grew out of **RunLogger**, a GPS-logging a
 
 ```mermaid
 flowchart LR
-    RL["RunLogger<br/>Objective-C · GPS logging"] --> GDE["GeoDiveExa<br/>C# / .NET MAUI · RTK-GNSS"]
+    CADGIS["CAD/GIS (C/C++)"] --> RL["RunLogger<br/>Objective-C · GPS logging"]
+    CADGIS --> UW1995
+    RL --> GDE["GeoDiveExa<br/>C# / .NET MAUI · RTK-GNSS"]
     GDE --> NAVI["Pedestrian nav for the visually impaired (contract)<br/>image recognition + voice control · iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI feature tests (Flutter / SwiftUI)"]
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]

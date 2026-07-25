@@ -99,7 +99,9 @@
 
 ```mermaid
 flowchart LR
-    RL["RunLogger<br/>Objective-C・GPSログ"] --> GDE["GeoDiveExa<br/>C# / .NET MAUI・RTK-GNSS"]
+    CADGIS["CAD/GIS (C/C++)"] --> RL["RunLogger<br/>Objective-C・GPSログ"]
+    CADGIS --> UW1995
+    RL --> GDE["GeoDiveExa<br/>C# / .NET MAUI・RTK-GNSS"]
     GDE --> NAVI["視覚障害者向け歩行者ナビ（受託）<br/>画像認識＋音声操作・iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI機能テスト（Flutter / SwiftUI）"]
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
