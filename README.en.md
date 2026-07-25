@@ -57,7 +57,7 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 
 | Project | Description | License |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (verified up to ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
+| [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (verified up to ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
 | [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (Windows/macOS/Linux)_ | A commercial, even-faster edition of UwView. A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial ([**buy: one-time $129 / $9 per month (Polar)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)) |
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
@@ -86,8 +86,8 @@ flowchart LR
     GDE --> NAVI["Pedestrian nav for the visually impaired (contract)<br/>image recognition + voice control · iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI feature tests (Flutter / SwiftUI)"]
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
-    UW1995["UwView 1995<br/>C++ · large text viewer (published on Vector)"] --> UW2026["UwView 2026<br/>C# / Avalonia · full rebuild"]
-    UW2026 --> UWPRO["UwView Pro<br/>C# · high-speed edition (available now)"]
+    UW1995["UwView 1995<br/>C++ · large text viewer (published on Vector)"] --> UW2026["UwView 2026<br/>C# / Avalonia · full rebuild (published on Vector)"]
+    UW2026 --> UWPRO["UwView Pro<br/>C# · high-speed edition (available now on Polar)"]
 ```
 
 Starting from RunLogger (GPS logging), I built **GeoDiveExa** (C#). I then developed, under contract, a **pedestrian navigation app for the visually impaired** (an iOS app that uses *image recognition* as a substitute for sight and *voice* for control). As an **AI feature study** I prototyped runlogger / RunLoggerSWUI, and applied what I learned to build **GeoConverter Pro / GeoPrism JP** in Swift.

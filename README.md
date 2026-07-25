@@ -74,7 +74,7 @@
 
 | プロジェクト | 内容 | ライセンス |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | 最大９億行（までしか確認で来ていない）巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 現状の理論上最大行数は5500億行　| [PolyForm Internal Use License 1.0.0](https://polyformproject.org/licenses/internal-use/1.0.0/) |
+| [**UwView**](https://github.com/amru195704/UwView) | 最大９億行（までしか確認で来ていない）巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 現状の理論上最大行数は5500億行　| [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
 | [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（Windows/macOS/Linux 対応）_ | UwView をさらに高速化した商用版。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（[**買い切り $129／月額 $9 を購入（Polar）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)） |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
@@ -103,8 +103,8 @@ flowchart LR
     GDE --> NAVI["視覚障害者向け歩行者ナビ（受託）<br/>画像認識＋音声操作・iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI機能テスト（Flutter / SwiftUI）"]
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
-    UW1995["UwView 1995<br/>C++・大容量テキストビューア（Vector 公開）"] --> UW2026["UwView 2026<br/>C# / Avalonia・全面再構築"]
-    UW2026 --> UWPRO["UwView Pro<br/>C#・高速版（発売中）"]
+    UW1995["UwView 1995<br/>C++・大容量テキストビューア（Vector 公開）"] --> UW2026["UwView 2026<br/>C# / Avalonia・全面再構築（Vector公開）"]
+    UW2026 --> UWPRO["UwView Pro<br/>C#・高速版（Polarで発売中）"]
 ```
 
 RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後、受託で**視覚障害者向けの歩行者ナビ**（目の代わりに *画像認識*、操作は *音声* で行う iOS アプリ）を開発しました。さらに **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
