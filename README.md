@@ -47,26 +47,17 @@
 
 ---
 
-## 📝 Note（歴史改変ファンタジー『シン・二連環記』）
+## 📝 歴史改変ファンタジー『シン・二連環記』（円環年代記シリーズ）
 
 戦国から現代のW杯まで、日本の400年を「円環の預言」で貫く歴史改変ファンタジー。
 
-**▶ まずはここから（無料）**
+**📖 現在 Kindle 版へ移行中です。** note で販売していた有料コンテンツ（マガジン・原型版・設定資料集）は**公開を終了しました**。完全版（聖典統合の合本）を Kindle で刊行予定です。
+
+**▶ 無料で読める導入編（note）**
 
 - 【5分で分かる】超入門 ―はじめての方へ― [note.com](https://note.com/amru1957/n/nec43a60fb81d)
 - 何が“シン”なのか ―旧版からの増補まるわかり [note.com](https://note.com/amru1957/n/nd0dbb1f7cb56)
 - 2つのAIに読ませたら ―絶賛と、容赦ない酷評― [note.com](https://note.com/amru1957/n/n2217739bd6bb)
-
-**マガジン（まとめてお得）**
-
-- 全部入り（本編＋答え合わせ編＋設定資料集）(5冊) [note.com](https://note.com/amru1957/m/m3e29b983efce)
-- 本編『シン・二連環記 ―日出ずる国の円環年代記』（全2冊） [note.com](https://note.com/amru1957/m/m35656cfd33cc)
-- 答え合わせ編（種明かし・全2冊） [note.com](https://note.com/amru1957/m/mcf8c0c2df60d)
-- 円環年代記 オリジナル版・入門セット(8冊) [note.com](https://note.com/amru1957/m/m460b0543b6ca)
-
-**単品**
-
-- 設定資料集『守り人と十三の椅子』（光と影・保存版） [note.com](https://note.com/amru1957/n/n4a8037aa0754)
 
 ---
 
@@ -74,8 +65,8 @@
 
 | プロジェクト | 内容 | ライセンス |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | 最大９億行（までしか確認で来ていない）巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応 現状の理論上最大行数は5500億行　| [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（Windows/macOS/Linux 対応）_ | UwView をさらに高速化した商用版。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（[**買い切り $129／月額 $9 を購入（Polar）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)） |
+| [**UwView**](https://github.com/amru195704/UwView) | **45億行クラス**の巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応。実測した最大は **258.68GB・4,509,830,821行**（OpenStreetMap アメリカ全土のXML展開・UwView Pro で計測／従来は8.9億行が最大でした）。現状の設定での理論上最大行数は5500億行 | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
+| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（Windows/macOS/Linux 対応）_ | UwView をさらに高速化した商用版。**258.68GB・45億行**の実測に成功（初回オープン5分28秒 → 2回目以降は一瞬）。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（[**買い切り $129／月額 $9 を購入（Polar）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)） |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
@@ -90,6 +81,13 @@
 > - **2回目以降のオープン: 0.02〜0.07 秒**（klogg は毎回再索引 約110秒 ＝ **1,500倍以上**）
 > - **全文検索 "Tokyo": 14.3 秒**（klogg 120〜135秒 ＝ **約9倍**。大小無視で約8.6倍、正規表現で約4.4倍）
 > - **アーカイブ運用: 元ファイルを削除して 48GB→5.3GB（約 1/9）** で保管・そのまま閲覧（チェックサム保護付き）
+
+> **さらに大きな実測（2026-07-26／klogg比較とは別条件）**: OpenStreetMap **アメリカ全土**を XML 展開した **258.68GB・4,509,830,821行（45億行）** を UwView Pro で開いた記録（OSM日本 51GB・8.9億行の約5倍）:
+>
+> - **初回オープン（索引構築込み）: 5分28秒**（328秒 ＝ 約 789 MB/s）／**2回目以降は一瞬**（`.uwvz` サイドカーから復元）
+> - **全文検索は語やヒット数に依らず約34秒で一定**（「New York」34.8秒・100,492件ヒット）
+> - **`.uwvz` サイドカー: 28.61GB（元ファイルの約11%）**
+> - 総行数 4,509,830,821 は int の上限 2,147,483,647 を超えるため、**行番号を `long` で持つ設計が必須**であることが実証されました
 
 ---
 

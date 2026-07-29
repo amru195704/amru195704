@@ -46,10 +46,15 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 
 ## 📝 Note (alternate-history fantasy, in Japanese)
 
-*Shin Nirenkanki* — an alternate-history fantasy that ties 400 years of Japan, from the Warring States period to the modern World Cup, together through a "prophecy of the ring." Serialized on note.com (Japanese).
+*Shin Nirenkanki* — an alternate-history fantasy that ties 400 years of Japan, from the Warring States period to the modern World Cup, together through a "prophecy of the ring." Japanese only.
 
-- Magazine (all-in-one bundle) [note.com](https://note.com/amru1957/m/m3e29b983efce)
-- 5-minute intro for newcomers [note.com](https://note.com/amru1957/n/nec43a60fb81d)
+**📖 Now migrating to Kindle.** The paid note.com content (magazines, the original edition, the setting book) has been **taken down**. A complete edition is planned for Kindle.
+
+Free introductory pieces still on note.com:
+
+- A 5-minute intro for newcomers [note.com](https://note.com/amru1957/n/nec43a60fb81d)
+- What makes it "Shin" — everything added since the original [note.com](https://note.com/amru1957/n/nd0dbb1f7cb56)
+- I had two AIs read it — praise, and a merciless panning [note.com](https://note.com/amru1957/n/n2217739bd6bb)
 
 ---
 
@@ -57,8 +62,8 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 
 | Project | Description | License |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (verified up to ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (Windows/macOS/Linux)_ | A commercial, even-faster edition of UwView. A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial ([**buy: one-time $129 / $9 per month (Polar)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)) |
+| [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (**verified up to 4,509,830,821 lines / 258.68 GB** — OpenStreetMap for the whole USA expanded to XML, measured with UwView Pro; the previous best was ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
+| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (Windows/macOS/Linux)_ | A commercial, even-faster edition of UwView. **Proven on 258.68 GB / 4.51 billion lines** (first open 5 min 28 s, instant on every reopen). A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial ([**buy: one-time $129 / $9 per month (Polar)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)) |
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
 
@@ -73,6 +78,13 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 > - **Re-open (2nd time on): 0.02–0.07 s** (klogg re-indexes every time, ~110 s = **1,500×+**)
 > - **Full-text search "Tokyo": 14.3 s** (klogg 120–135 s = **~9×**; ~8.6× case-insensitive, ~4.4× regex)
 > - **Archive mode: delete the original and keep 48 GB → 5.3 GB (~1/9)**, opened directly (checksum-protected)
+
+> **A much bigger run (2026-07-26, separate conditions from the klogg comparison)**: OpenStreetMap for the **entire USA**, expanded to XML — **258.68 GB / 4,509,830,821 lines (4.51 billion)** — opened with UwView Pro (about 5× the 51 GB / 890 M-line Japan file):
+>
+> - **First open (including index build): 5 min 28 s** (328 s ≈ 789 MB/s); **instant on every reopen** (restored from the `.uwvz` sidecar)
+> - **Full-text search stays at ~34 s** regardless of the term or hit count ("New York": 34.8 s, 100,492 hits)
+> - **`.uwvz` sidecar: 28.61 GB (~11% of the original)**
+> - 4,509,830,821 exceeds the int limit of 2,147,483,647 — proof that line numbers **must** be held as `long`
 
 ---
 
