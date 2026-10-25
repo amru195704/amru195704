@@ -28,13 +28,16 @@
 | --- | --- | --- | --- |
 | **[UwView](https://github.com/amru195704/UwView)** | `uvf` | 巨大なログ・テキストを開いて探すビューア。CLI で探し、`-open` で結果をそのまま画面へ。7 種類の圧縮ファイル（gz・bz2・xz・lzma・zst・lz4・br）や Word・Excel・PDF の中の文字も探せる | [Releases](https://github.com/amru195704/UwView/releases/latest) ・ Homebrew ・ Scoop ・ Snap ・ [ブラウザで試す](https://amru195704.github.io/UwView/) |
 | **[UwView Pro](https://uvp.y42u.net/pro/)** | `uvp` | UwView の有料版。索引（`.uwvz`）を保存して、2回目からは一瞬で開き、速く探す。元ファイルを約 1/9 の大きさで保管・閲覧。編集（Edit Upgrade）も | [製品ページ](https://uvp.y42u.net/pro/)（14日間の試用あり） |
-| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | 2つのファイル・2つのフォルダを比べる。テキスト・CSV/TSV/Excel（キー列で照合、行の順番が違ってもよい）・圧縮ファイル・Word/Excel/PDF の文字、文字コードは UTF-8・Shift-JIS・EUC-JP・UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) ・ [紹介ページ](https://uvp.y42u.net/uwdiff/) |
+| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | 2つのファイル・2つのフォルダを比べる。テキスト・CSV/TSV/Excel（キー列で照合、行の順番が違ってもよい）・圧縮ファイル・Word/Excel/PDF の文字、文字コードは UTF-8・Shift-JIS・EUC-JP・UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) ・ Homebrew ・ Scoop ・ [紹介ページ](https://uvp.y42u.net/uwdiff/) |
 
 ```bash
 # UwView を入れる（uvf も使えるようになります）
 brew install --cask amru195704/uwview/uwview                                         # Mac（Homebrew）
 scoop bucket add uwview https://github.com/amru195704/scoop-uwview; scoop install uwview   # Windows（Scoop）
 sudo snap install uwview                                                             # Linux（Snap Store）
+# UwDiff を入れる（uvd も使えるようになります。Snap は準備中）
+brew install --cask amru195704/uwview/uwdiff                                         # Mac（Homebrew）
+scoop install uwdiff                                                                 # Windows（Scoop・上の bucket を追加済みなら）
 ```
 
 ### 測量・測地（iOS）

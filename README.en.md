@@ -27,13 +27,16 @@
 | --- | --- | --- | --- |
 | **[UwView](https://github.com/amru195704/UwView)** | `uvf` | A viewer for opening and searching huge logs and text. Search from the CLI and send the hits straight to the window with `-open`. Also searches inside 7 compression formats (gz, bz2, xz, lzma, zst, lz4, br) and the text of Word, Excel and PDF files | [Releases](https://github.com/amru195704/UwView/releases/latest) · Homebrew · Scoop · Snap · [try it in the browser](https://amru195704.github.io/UwView/) |
 | **[UwView Pro](https://uvp.y42u.net/en/pro-en/)** | `uvp` | The paid edition of UwView. It saves an index (`.uwvz`), so from the second time on files open instantly and searches are faster; keep originals at about 1/9 the size and still read them. Editing via the Edit Upgrade | [Product page](https://uvp.y42u.net/en/pro-en/) (14-day trial) |
-| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | Compares two files or two folders: text, CSV/TSV/Excel matched by key columns (row order may differ), compressed files, and the text of Word/Excel/PDF; UTF-8, Shift-JIS, EUC-JP and UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) · [Overview](https://uvp.y42u.net/en/uwdiff-en/) |
+| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | Compares two files or two folders: text, CSV/TSV/Excel matched by key columns (row order may differ), compressed files, and the text of Word/Excel/PDF; UTF-8, Shift-JIS, EUC-JP and UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) · Homebrew · Scoop · [Overview](https://uvp.y42u.net/en/uwdiff-en/) |
 
 ```bash
 # Install UwView (this also gives you the uvf command)
 brew install --cask amru195704/uwview/uwview                                         # Mac (Homebrew)
 scoop bucket add uwview https://github.com/amru195704/scoop-uwview; scoop install uwview   # Windows (Scoop)
 sudo snap install uwview                                                             # Linux (Snap Store)
+# Install UwDiff (this also gives you the uvd command; Snap in preparation)
+brew install --cask amru195704/uwview/uwdiff                                         # Mac (Homebrew)
+scoop install uwdiff                                                                 # Windows (Scoop, once the bucket above is added)
 ```
 
 ### Surveying and geodesy (iOS)
