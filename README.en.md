@@ -4,7 +4,7 @@
 
 <p align="center">
   I build non-business software, mainly in the CAD / GIS and engineering domains.<br>
-  Currently focused on geospatial / surveying apps for iOS and cross-platform desktop.
+  Currently building surveying / geodesy apps for iOS and desktop tools for searching and comparing huge files (the UwView series).
 </p>
 
 <p align="center">
@@ -18,6 +18,25 @@
 ---
 
 ## 📱 Released apps
+
+### Search and compare huge files — the UwView series (Windows, macOS, Linux)
+
+**Search with UwView, compare with UwDiff.** Each ships a GUI and a CLI in one package. Website: [uvp.y42u.net](https://uvp.y42u.net/en/)
+
+| App | CLI | What it does | Get it |
+| --- | --- | --- | --- |
+| **[UwView](https://github.com/amru195704/UwView)** | `uvf` | A viewer for opening and searching huge logs and text. Search from the CLI and send the hits straight to the window with `-open`. Also searches inside 7 compression formats (gz, bz2, xz, lzma, zst, lz4, br) and the text of Word, Excel and PDF files | [Releases](https://github.com/amru195704/UwView/releases/latest) · Homebrew · Scoop · Snap · [try it in the browser](https://amru195704.github.io/UwView/) |
+| **[UwView Pro](https://uvp.y42u.net/en/pro-en/)** | `uvp` | The paid edition of UwView. It saves an index (`.uwvz`), so from the second time on files open instantly and searches are faster; keep originals at about 1/9 the size and still read them. Editing via the Edit Upgrade | [Product page](https://uvp.y42u.net/en/pro-en/) (14-day trial) |
+| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | Compares two files or two folders: text, CSV/TSV/Excel matched by key columns (row order may differ), compressed files, and the text of Word/Excel/PDF; UTF-8, Shift-JIS, EUC-JP and UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) · [Overview](https://uvp.y42u.net/en/uwdiff-en/) |
+
+```bash
+# Install UwView (this also gives you the uvf command)
+brew install --cask amru195704/uwview/uwview                                         # Mac (Homebrew)
+scoop bucket add uwview https://github.com/amru195704/scoop-uwview; scoop install uwview   # Windows (Scoop)
+sudo snap install uwview                                                             # Linux (Snap Store)
+```
+
+### Surveying and geodesy (iOS)
 
 A family of apps specialized for Japan's geodetic systems, supporting fieldwork and learning in surveying and geodesy.
 
@@ -51,41 +70,38 @@ The test Python scripts used in the "Run it in Python to verify" sections of the
 
 **📖 Now on Kindle.** The main story is complete in six volumes, with side stories following — each narrative volume pairs with an "answer-check" companion that sorts fact from fiction. Start with [vol. 1](https://www.amazon.co.jp/dp/B0HC2Y5T6L). (The old paid note.com content has been taken down and folded into the Kindle edition.)
 
-Free introductory pieces still on note.com:
+Free pieces on note.com (in Japanese):
 
 - A 5-minute intro for newcomers [note.com](https://note.com/amru1957/n/nec43a60fb81d)
-- What makes it "Shin" — everything added since the original [note.com](https://note.com/amru1957/n/nd0dbb1f7cb56)
-- I had two AIs read it — praise, and a merciless panning [note.com](https://note.com/amru1957/n/n2217739bd6bb)
+- To mark the finale: a first-time AI reads all six volumes in one go — praise and pans as they came [note.com](https://note.com/amru1957/n/ncf1ea19b6ffe)
+- Making-of: "I published eight novels in twelve days (and every cost involved)" [note.com](https://note.com/amru1957/n/n2cc8755586a2)
 
 ---
 
-## 🧰 Projects
+## 🧰 Projects (GitHub)
 
-| Project | Description | License |
+| Repository | Description | License |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | A memory-thrifty, high-speed viewer for gigantic text files (**verified up to 4,509,830,821 lines / 258.68 GB** — OpenStreetMap for the whole USA expanded to XML, measured with UwView Pro; the previous best was ~890 million lines); Avalonia / .NET 10 · Windows / macOS / Linux / WASM. Automatic encoding detection, full-text search, real-time tail. Current theoretical maximum is ~550 billion lines. | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _Available now (Windows/macOS/Linux)_ | A commercial, even-faster edition of UwView. **Proven on 258.68 GB / 4.51 billion lines** (first open 5 min 28 s, instant on every reopen). A compressed sidecar cache makes **re-open (2nd time on) 0.02–0.07 s (1,500×+ vs klogg)**, full-text search **up to ~9× faster than klogg**, and lets you keep and open files at **~1/9 the size** after deleting the original. | Commercial ([**buy: one-time $129 / $9 per month (Polar)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)) |
+| [**UwView**](https://github.com/amru195704/UwView) | Viewer for gigantic text and logs, plus the `uvf` CLI (Avalonia / .NET 10 · Windows / macOS / Linux / WASM). Automatic encoding detection, full-text search, real-time tail. **Verified up to 258.68 GB / 4,509,830,821 lines** (OpenStreetMap for the whole USA expanded to XML, measured with UwView Pro) | [UwView License](https://github.com/amru195704/UwView/blob/main/LICENSE) |
+| [**UwDiff**](https://github.com/amru195704/UwDiff) | Tool for comparing two files or folders, plus the `uvd` CLI (.NET 10 · Windows / macOS / Linux). Key matching of two 10 GB CSV files in about 21 s, two 10 GB text files in about 21 s (measured on a Mac mini M4; [full tables, conditions and losses](https://github.com/amru195704/UwDiff/blob/main/docs/benchmarks.md)) | [UwDiff License](https://github.com/amru195704/UwDiff/blob/main/LICENSE) |
+| [homebrew-uwview](https://github.com/amru195704/homebrew-uwview) · [scoop-uwview](https://github.com/amru195704/scoop-uwview) · [snap-uwview](https://github.com/amru195704/snap-uwview) | Package definitions for installing UwView with Homebrew, Scoop and the Snap Store | — |
+| [**geodetic-book-py**](geodetic-book-py/README.md) | Python scripts for checking the results in *Understanding Japan's Geodetic Systems — Implementation* | — |
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
 
-> **About the UwView license** (this summary does not replace the license text):
+> **About the UwView and UwDiff licenses** (this summary does not replace the license text): both are the PolyForm Internal Use License 1.0.0 plus a permission to redistribute the official binaries as packages.
 >
 > - Free for personal use and for a company's internal business use.
-> - You may **not** distribute the software (redistribution, bundling into a product/service, resale, providing to third parties, hosting, or OEM embedding are not permitted).
-> - Those uses require a separate commercial (redistribution/OEM) license from the author.
+> - Redistribution, bundling into a product/service, resale, providing to third parties, hosting, or OEM embedding require a separate commercial (redistribution/OEM) license from the author.
+> - However, **the official, unmodified binaries may be redistributed free of charge as packages** (Flathub, Snap, AUR, Linux distribution repositories, Homebrew, Scoop, winget and so on). The conditions are in the "Additional Permission" section of each LICENSE.
+> - Neither is open-source software.
 
-> **🚀 UwView Pro (available now, Windows/macOS/Linux)** → [product page](https://uvp.y42u.net/pro/) / [**buy (Polar, one-time $129 / $9 per month)**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj) — measured against the large-log viewer [klogg](https://klogg.filimonov.dev/) (OpenStreetMap Japan, 47.73 GB / 892,239,125 lines, external USB, 32 GB RAM, 10-core Mac; hit counts verified identical to klogg):
+> **UwView Pro, measured** (against [klogg](https://klogg.filimonov.dev/); OpenStreetMap Japan, 47.73 GB / 892,239,125 lines, external USB, 32 GB RAM, 10-core Mac; hit counts verified identical to klogg):
 >
-> - **Re-open (2nd time on): 0.02–0.07 s** (klogg re-indexes every time, ~110 s = **1,500×+**)
-> - **Full-text search "Tokyo": 14.3 s** (klogg 120–135 s = **~9×**; ~8.6× case-insensitive, ~4.4× regex)
+> - **Re-open (2nd time on): 0.02–0.07 s** (klogg re-indexes every time, ~110 s)
+> - **Full-text search "Tokyo": 14.3 s** (klogg 120–135 s = ~9×; ~8.6× case-insensitive, ~4.4× regex)
 > - **Archive mode: delete the original and keep 48 GB → 5.3 GB (~1/9)**, opened directly (checksum-protected)
-
-> **A much bigger run (2026-07-26, separate conditions from the klogg comparison)**: OpenStreetMap for the **entire USA**, expanded to XML — **258.68 GB / 4,509,830,821 lines (4.51 billion)** — opened with UwView Pro (about 5× the 51 GB / 890 M-line Japan file):
->
-> - **First open (including index build): 5 min 28 s** (328 s ≈ 789 MB/s); **instant on every reopen** (restored from the `.uwvz` sidecar)
-> - **Full-text search stays at ~34 s** regardless of the term or hit count ("New York": 34.8 s, 100,492 hits)
-> - **`.uwvz` sidecar: 28.61 GB (~11% of the original)**
-> - 4,509,830,821 exceeds the int limit of 2,147,483,647 — proof that line numbers **must** be held as `long`
+> - **The whole USA, 258.68 GB / 4.51 billion lines** (2026-07-26, separate conditions): first open including the index build 5 min 28 s, instant on every reopen; full-text search stays at ~34 s regardless of the term or hit count ("New York": 34.8 s, 100,492 hits) — proof that line numbers must be held as `long`
 
 ---
 
@@ -103,11 +119,12 @@ flowchart LR
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
     UW1995["UwView 1995<br/>C++ · large text viewer (published on Vector)"] --> UW2026["UwView 2026<br/>C# / Avalonia · full rebuild (published on Vector)"]
     UW2026 --> UWPRO["UwView Pro<br/>C# · high-speed edition (available now on Polar)"]
+    UW2026 --> UVD["UwDiff<br/>C# / Avalonia · comparison tool (released 2026-10)"]
 ```
 
 Starting from RunLogger (GPS logging), I built **GeoDiveExa** (C#). I then developed, under contract, a **pedestrian navigation app for the visually impaired** (an iOS app that uses *image recognition* as a substitute for sight and *voice* for control). As an **AI feature study** I prototyped runlogger / RunLoggerSWUI, and applied what I learned to build **GeoConverter Pro / GeoPrism JP** in Swift.
 
-**UwView** has a separate origin: a large text viewer I first wrote in **C++** in 1995 (published on Japan's "Vector" archive), fully rebuilt in **C# / Avalonia** in 2026, and now extended into the high-speed **UwView Pro**.
+**UwView** has a separate origin: a large text viewer I first wrote in **C++** in 1995 (published on Japan's "Vector" archive), fully rebuilt in **C# / Avalonia** in 2026, and now extended into the high-speed **UwView Pro** and the sister comparison tool **UwDiff**.
 
 ---
 
@@ -120,7 +137,7 @@ Starting from RunLogger (GPS logging), I built **GeoDiveExa** (C#). I then devel
   - Developed a CAD system for creating car-navigation map data
 - **Main field**: CAD / GIS and engineering software (non-business)
 - **Qualification**: First-Class Radio Engineer (now First-Class Technical Radio Operator for On-The-Ground Services)
-- **Now**: developing surveying / geodesy apps for iOS and cross-platform desktop
+- **Now**: developing surveying / geodesy apps for iOS and desktop tools for huge files (the UwView series)
 
 ## 🛠 Tech stack
 

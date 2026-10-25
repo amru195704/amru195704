@@ -4,8 +4,8 @@
 
 <p align="center">
   CAD / GIS・エンジニアリング領域を中心に、事務系以外のソフトウェアを開発しています。<br>
-  現在は iOS / クロスプラットフォームの測量・測地アプリに注力中。<br>
-  <em>Software engineer in CAD/GIS and engineering domains — currently building geospatial apps for iOS &amp; desktop.</em>
+  現在は、iOS の測量・測地アプリと、巨大ファイルを探す・比べるデスクトップツール（UwView シリーズ）を開発中。<br>
+  <em>Software engineer in CAD/GIS and engineering domains — building geospatial apps for iOS and huge-file tools for the desktop.</em>
 </p>
 
 <p align="center">
@@ -20,7 +20,26 @@
 
 ## 📱 リリース済みアプリ
 
-測量・測地の現場と学習を支える、日本の測地系に特化したアプリ群です。
+### 巨大なファイルを「探す」「比べる」— UwView シリーズ（Windows・macOS・Linux）
+
+**UwView で探して、UwDiff で比べる。** どれも画面（GUI）と CLI を1つの配布物に入れています。公式サイト: [uvp.y42u.net](https://uvp.y42u.net/)
+
+| アプリ | CLI | 内容 | 入手 |
+| --- | --- | --- | --- |
+| **[UwView](https://github.com/amru195704/UwView)** | `uvf` | 巨大なログ・テキストを開いて探すビューア。CLI で探し、`-open` で結果をそのまま画面へ。7 種類の圧縮ファイル（gz・bz2・xz・lzma・zst・lz4・br）や Word・Excel・PDF の中の文字も探せる | [Releases](https://github.com/amru195704/UwView/releases/latest) ・ Homebrew ・ Scoop ・ Snap ・ [ブラウザで試す](https://amru195704.github.io/UwView/) |
+| **[UwView Pro](https://uvp.y42u.net/pro/)** | `uvp` | UwView の有料版。索引（`.uwvz`）を保存して、2回目からは一瞬で開き、速く探す。元ファイルを約 1/9 の大きさで保管・閲覧。編集（Edit Upgrade）も | [製品ページ](https://uvp.y42u.net/pro/)（14日間の試用あり） |
+| **[UwDiff](https://github.com/amru195704/UwDiff)** | `uvd` | 2つのファイル・2つのフォルダを比べる。テキスト・CSV/TSV/Excel（キー列で照合、行の順番が違ってもよい）・圧縮ファイル・Word/Excel/PDF の文字、文字コードは UTF-8・Shift-JIS・EUC-JP・UTF-16 | [Releases](https://github.com/amru195704/UwDiff/releases/latest) ・ [紹介ページ](https://uvp.y42u.net/uwdiff/) |
+
+```bash
+# UwView を入れる（uvf も使えるようになります）
+brew install --cask amru195704/uwview/uwview                                         # Mac（Homebrew）
+scoop bucket add uwview https://github.com/amru195704/scoop-uwview; scoop install uwview   # Windows（Scoop）
+sudo snap install uwview                                                             # Linux（Snap Store）
+```
+
+### 測量・測地（iOS）
+
+日本の測地系に特化した、測量・測地の現場と学習を支えるアプリ群です。
 
 | アプリ | 内容 | リンク |
 | --- | --- | --- |
@@ -64,33 +83,30 @@
 
 ---
 
-## 🧰 プロジェクト
+## 🧰 プロジェクト（GitHub）
 
-| プロジェクト | 内容 | ライセンス |
+| リポジトリ | 内容 | ライセンス |
 | --- | --- | --- |
-| [**UwView**](https://github.com/amru195704/UwView) | **45億行クラス**の巨大テキストを省メモリ・高速に閲覧するビューア（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail 対応。実測した最大は **258.68GB・4,509,830,821行**（OpenStreetMap アメリカ全土のXML展開・UwView Pro で計測／従来は8.9億行が最大でした）。現状の設定での理論上最大行数は5500億行 | [PolyForm Internal Use License 1.0.0](https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Internal-Use-1.0.0.md) |
-| [**UwView Pro**](https://uvp.y42u.net/pro/) 🚀 _発売中（Windows/macOS/Linux 対応）_ | UwView をさらに高速化した商用版。**258.68GB・45億行**の実測に成功（初回オープン5分28秒 → 2回目以降は一瞬）。圧縮サイドカーキャッシュで **2回目以降のオープンが 0.02〜0.07 秒（klogg 比 1,500 倍以上）**、全文検索は **klogg 比 最大約 9 倍**、元ファイルを削除して **約 1/9 サイズ**で保管・閲覧も可能 | 商用（[**買い切り $129／月額 $9 を購入（Polar）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj)） |
+| [**UwView**](https://github.com/amru195704/UwView) | 巨大テキスト・ログのビューア＋CLI `uvf`（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail。実測した最大は **258.68GB・4,509,830,821行**（OpenStreetMap アメリカ全土の XML 展開・UwView Pro で計測） | [UwView License](https://github.com/amru195704/UwView/blob/main/LICENSE) |
+| [**UwDiff**](https://github.com/amru195704/UwDiff) | 2つのファイル・フォルダの比較ツール＋CLI `uvd`（.NET 10・Windows / macOS / Linux）。CSV 10GB × 2本のキー照合 約21秒・テキスト 10GB × 2本 約21秒（Mac mini M4 の実測。[条件と負けを含む全表](https://github.com/amru195704/UwDiff/blob/main/docs/benchmarks.md)） | [UwDiff License](https://github.com/amru195704/UwDiff/blob/main/LICENSE) |
+| [homebrew-uwview](https://github.com/amru195704/homebrew-uwview) ・ [scoop-uwview](https://github.com/amru195704/scoop-uwview) ・ [snap-uwview](https://github.com/amru195704/snap-uwview) | UwView を Homebrew・Scoop・Snap Store で入れるためのパッケージ定義 | — |
+| [**geodetic-book-py**](geodetic-book-py/README.md) | 『日本の測地系がわかる本（実装編）』の確認用 Python スクリプト | — |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
-> **UwView のライセンスについて**（この要約はライセンス本文に代わるものではありません）:
+> **UwView・UwDiff のライセンスについて**（この要約はライセンス本文に代わるものではありません）: どちらも PolyForm Internal Use License 1.0.0 に「公式バイナリのパッケージ再配布の許可」を足したものです。
 >
 > - 個人、および企業の「社内業務利用」は無料です。
-> - 本ソフトウェアの頒布はできません（再配布・製品/サービスへの組込み・転売・第三者への提供・ホスティング提供・OEM 組込みは許可されません）。
-> - これらを行う場合は、作者から別途の商用（再配布/OEM）ライセンスが必要です。
+> - 再配布・製品/サービスへの組込み・転売・第三者への提供・ホスティング提供・OEM 組込みには、作者から別途の商用（再配布/OEM）ライセンスが必要です。
+> - ただし、**公式バイナリを無改変のまま、無償でパッケージとして再配布すること**はできます（Flathub・Snap・AUR・Linux ディストリビューションのリポジトリ・Homebrew・Scoop・winget など）。条件は各 LICENSE の「Additional Permission」にあります。
+> - オープンソースソフトウェアではありません。
 
-> **🚀 UwView Pro（発売中・Windows/macOS/Linux 対応）** → [製品ページ](https://uvp.y42u.net/pro/) ／ [**購入（Polar・買い切り $129／月額 $9）**](https://buy.polar.sh/polar_cl_37MuoKb8WjSfLZ7hhjaTTzwAVBxu2XyqbnuWe3aGzbj) — 大容量ログビューア [klogg](https://klogg.filimonov.dev/) との実測比較（OpenStreetMap 日本全域 47.73GB・892,239,125 行、外付けUSB・RAM32GB・10コア Mac、検索ヒット数は klogg と厳密一致で相互検証済み）:
+> **UwView Pro の実測**（[klogg](https://klogg.filimonov.dev/) との比較。OpenStreetMap 日本全域 47.73GB・892,239,125 行、外付け USB・RAM 32GB・10 コア Mac、検索ヒット数は klogg と厳密一致で相互検証済み）:
 >
-> - **2回目以降のオープン: 0.02〜0.07 秒**（klogg は毎回再索引 約110秒 ＝ **1,500倍以上**）
-> - **全文検索 "Tokyo": 14.3 秒**（klogg 120〜135秒 ＝ **約9倍**。大小無視で約8.6倍、正規表現で約4.4倍）
-> - **アーカイブ運用: 元ファイルを削除して 48GB→5.3GB（約 1/9）** で保管・そのまま閲覧（チェックサム保護付き）
-
-> **さらに大きな実測（2026-07-26／klogg比較とは別条件）**: OpenStreetMap **アメリカ全土**を XML 展開した **258.68GB・4,509,830,821行（45億行）** を UwView Pro で開いた記録（OSM日本 51GB・8.9億行の約5倍）:
->
-> - **初回オープン（索引構築込み）: 5分28秒**（328秒 ＝ 約 789 MB/s）／**2回目以降は一瞬**（`.uwvz` サイドカーから復元）
-> - **全文検索は語やヒット数に依らず約34秒で一定**（「New York」34.8秒・100,492件ヒット）
-> - **`.uwvz` サイドカー: 28.61GB（元ファイルの約11%）**
-> - 総行数 4,509,830,821 は int の上限 2,147,483,647 を超えるため、**行番号を `long` で持つ設計が必須**であることが実証されました
+> - **2回目以降のオープン: 0.02〜0.07 秒**（klogg は毎回再索引 約110秒）
+> - **全文検索 "Tokyo": 14.3 秒**（klogg 120〜135秒 ＝ 約9倍。大小無視で約8.6倍、正規表現で約4.4倍）
+> - **アーカイブ運用: 元ファイルを削除して 48GB → 5.3GB（約 1/9）** で保管・そのまま閲覧（チェックサム保護付き）
+> - **アメリカ全土 258.68GB・45億行**（2026-07-26・別条件）: 初回オープン（索引構築込み）5分28秒、2回目以降は一瞬。全文検索は語やヒット数に依らず約34秒（「New York」34.8秒・100,492件）。行番号を `long` で持つ設計が必須であることを実証
 
 ---
 
@@ -108,11 +124,12 @@ flowchart LR
     TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
     UW1995["UwView 1995<br/>C++・大容量テキストビューア（Vector 公開）"] --> UW2026["UwView 2026<br/>C# / Avalonia・全面再構築（Vector公開）"]
     UW2026 --> UWPRO["UwView Pro<br/>C#・高速版（Polarで発売中）"]
+    UW2026 --> UVD["UwDiff<br/>C# / Avalonia・比較ツール（2026-10 公開）"]
 ```
 
 RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後、受託で**視覚障害者向けの歩行者ナビ**（目の代わりに *画像認識*、操作は *音声* で行う iOS アプリ）を開発しました。さらに **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
 
-**UwView** は源流が異なります。1995 年に **C++** で作った大容量テキストビューア（Vector で公開）を、2026 年に **C# / Avalonia** で全面再構築し、さらに高速版 **UwView Pro** へと発展させています。
+**UwView** は源流が異なります。1995 年に **C++** で作った大容量テキストビューア（Vector で公開）を、2026 年に **C# / Avalonia** で全面再構築し、さらに高速版 **UwView Pro**、2つのファイルを比べる姉妹ツール **UwDiff** へと広げています。
 
 ---
 
@@ -125,7 +142,7 @@ RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その�
   - カーナビ用地図データ作成 CAD の開発
 - **主分野**: CAD / GIS・エンジニアリング系ソフトウェア開発（事務系以外）
 - **資格**: 第１級無線技術者（現・第一級陸上無線技術士）
-- **現在**: iOS / クロスプラットフォームの測量・測地アプリ開発
+- **現在**: iOS の測量・測地アプリと、デスクトップの巨大ファイル用ツール（UwView シリーズ）の開発
 
 ## 🛠 技術スタック
 
