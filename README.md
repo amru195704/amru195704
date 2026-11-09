@@ -20,6 +20,8 @@
 
 ## 📱 リリース済みアプリ
 
+> このページは入口です。製品の詳しい説明・導入手順・実測は各リポジトリの README と `docs/` に、記事は公式サイトにあります。
+
 ### 巨大なファイルを「探す」「比べる」— UwView シリーズ（Windows・macOS・Linux）
 
 **UwView で探して、UwDiff で比べる。** どれも画面（GUI）と CLI を1つの配布物に入れています。公式サイト: [uvp.y42u.net](https://uvp.y42u.net/)
@@ -98,19 +100,9 @@ sudo snap install uwdiff                                                        
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
-> **UwView・UwDiff のライセンスについて**（この要約はライセンス本文に代わるものではありません）: どちらも PolyForm Internal Use License 1.0.0 に「公式バイナリのパッケージ再配布の許可」を足したものです。
+> **UwView・UwDiff のライセンス**: PolyForm Internal Use License 1.0.0 ＋ 公式バイナリのパッケージ再配布の許可。個人・社内業務利用は無料、再配布や製品組込みには別途の商用ライセンス、オープンソースではありません。詳細は各リポジトリの [LICENSE](https://github.com/amru195704/UwView/blob/main/LICENSE) と README の「[ライセンス](https://github.com/amru195704/UwView#ライセンス)」節へ。
 >
-> - 個人、および企業の「社内業務利用」は無料です。
-> - 再配布・製品/サービスへの組込み・転売・第三者への提供・ホスティング提供・OEM 組込みには、作者から別途の商用（再配布/OEM）ライセンスが必要です。
-> - ただし、**公式バイナリを無改変のまま、無償でパッケージとして再配布すること**はできます（Flathub・Snap・AUR・Linux ディストリビューションのリポジトリ・Homebrew・Scoop・winget など）。条件は各 LICENSE の「Additional Permission」にあります。
-> - オープンソースソフトウェアではありません。
-
-> **UwView Pro の実測**（[klogg](https://klogg.filimonov.dev/) との比較。OpenStreetMap 日本全域 47.73GB・892,239,125 行、外付け USB・RAM 32GB・10 コア Mac、検索ヒット数は klogg と厳密一致で相互検証済み）:
->
-> - **2回目以降のオープン: 0.02〜0.07 秒**（klogg は毎回再索引 約110秒）
-> - **全文検索 "Tokyo": 14.3 秒**（klogg 120〜135秒 ＝ 約9倍。大小無視で約8.6倍、正規表現で約4.4倍）
-> - **アーカイブ運用: 元ファイルを削除して 48GB → 5.3GB（約 1/9）** で保管・そのまま閲覧（チェックサム保護付き）
-> - **アメリカ全土 258.68GB・45億行**（2026-07-26・別条件）: 初回オープン（索引構築込み）5分28秒、2回目以降は一瞬。全文検索は語やヒット数に依らず約34秒（「New York」34.8秒・100,492件）。行番号を `long` で持つ設計が必須であることを実証
+> **実測の数字**（klogg・ripgrep などとの比較、3 OS での結果）は [UwView の README](https://github.com/amru195704/UwView#数字で見る-uwview) と [ベンチマーク一覧](https://uvp.y42u.net/benchmarks/) にまとめています。
 
 ---
 

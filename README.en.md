@@ -19,6 +19,8 @@
 
 ## 📱 Released apps
 
+> This page is the front door. Details, install steps and measurements are in each repository's README and `docs/`; articles are on the official sites.
+
 ### Search and compare huge files — the UwView series (Windows, macOS, Linux)
 
 **Search with UwView, compare with UwDiff.** Each ships a GUI and a CLI in one package. Website: [uvp.y42u.net](https://uvp.y42u.net/en/)
@@ -93,19 +95,9 @@ Free pieces on note.com (in Japanese):
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
 
-> **About the UwView and UwDiff licenses** (this summary does not replace the license text): both are the PolyForm Internal Use License 1.0.0 plus a permission to redistribute the official binaries as packages.
+> **UwView / UwDiff license**: PolyForm Internal Use License 1.0.0 plus a permission to redistribute the official binaries as packages. Free for personal and internal business use; redistribution or bundling needs a separate commercial license; not open source. See each repository's [LICENSE](https://github.com/amru195704/UwView/blob/main/LICENSE) and the [License](https://github.com/amru195704/UwView/blob/main/README.en.md#license) section of its README.
 >
-> - Free for personal use and for a company's internal business use.
-> - Redistribution, bundling into a product/service, resale, providing to third parties, hosting, or OEM embedding require a separate commercial (redistribution/OEM) license from the author.
-> - However, **the official, unmodified binaries may be redistributed free of charge as packages** (Flathub, Snap, AUR, Linux distribution repositories, Homebrew, Scoop, winget and so on). The conditions are in the "Additional Permission" section of each LICENSE.
-> - Neither is open-source software.
-
-> **UwView Pro, measured** (against [klogg](https://klogg.filimonov.dev/); OpenStreetMap Japan, 47.73 GB / 892,239,125 lines, external USB, 32 GB RAM, 10-core Mac; hit counts verified identical to klogg):
->
-> - **Re-open (2nd time on): 0.02–0.07 s** (klogg re-indexes every time, ~110 s)
-> - **Full-text search "Tokyo": 14.3 s** (klogg 120–135 s = ~9×; ~8.6× case-insensitive, ~4.4× regex)
-> - **Archive mode: delete the original and keep 48 GB → 5.3 GB (~1/9)**, opened directly (checksum-protected)
-> - **The whole USA, 258.68 GB / 4.51 billion lines** (2026-07-26, separate conditions): first open including the index build 5 min 28 s, instant on every reopen; full-text search stays at ~34 s regardless of the term or hit count ("New York": 34.8 s, 100,492 hits) — proof that line numbers must be held as `long`
+> **Measured numbers** (against klogg, ripgrep and others, on three OSes) live in the [UwView README](https://github.com/amru195704/UwView/blob/main/README.en.md) and the [benchmark index](https://uvp.y42u.net/en/benchmarks-en/).
 
 ---
 
