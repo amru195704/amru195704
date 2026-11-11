@@ -48,11 +48,11 @@ A family of apps specialized for Japan's geodetic systems, supporting fieldwork 
 
 | App | Description | Links |
 | --- | --- | --- |
-| **GeoConverter Pro** | Dedicated coordinate-conversion app. World geodetic / Japan plane-rectangular systems, with semi-dynamic and steady-state crustal-movement correction | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
-| **GeoPrism JP** | Learning app that visualizes datum shifts and the geoid on maps and heatmaps | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
+| **JP-GeoConverter Pro** | Dedicated coordinate-conversion app. World geodetic / Japan plane-rectangular systems, with semi-dynamic and steady-state crustal-movement correction | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
+| **JP-GeoPrism** | Learning app that visualizes datum shifts and the geoid on maps and heatmaps | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
 | **GeoDiveExa** | High-precision RTK-GNSS survey app (the origin of the coordinate-conversion engine) | [Web](https://y42u.net/tec001/) |
 
-> **GeoConverter Pro** and **GeoPrism JP** share **GeoCoreJP** (a Swift Package), the coordinate-conversion engine extracted from GeoDiveExa.
+> **JP-GeoConverter Pro** and **JP-GeoPrism** share **GeoCoreJP** (a Swift Package), the coordinate-conversion engine extracted from GeoDiveExa.
 
 ---
 
@@ -112,13 +112,13 @@ flowchart LR
     RL --> GDE["GeoDiveExa<br/>C# / .NET MAUI · RTK-GNSS"]
     GDE --> NAVI["Pedestrian nav for the visually impaired (contract)<br/>image recognition + voice control · iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI feature tests (Flutter / SwiftUI)"]
-    TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
+    TEST --> SWIFT["JP-GeoConverter Pro / JP-GeoPrism<br/>Swift"]
     UW1995["UwView 1995<br/>C++ · large text viewer (published on Vector)"] --> UW2026["UwView 2026<br/>C# / Avalonia · full rebuild (published on Vector)"]
     UW2026 --> UWPRO["UwView Pro<br/>C# · high-speed edition (available now on Polar)"]
     UW2026 --> UVD["UwDiff<br/>C# / Avalonia · comparison tool (released 2026-10)"]
 ```
 
-Starting from RunLogger (GPS logging), I built **GeoDiveExa** (C#). I then developed, under contract, a **pedestrian navigation app for the visually impaired** (an iOS app that uses *image recognition* as a substitute for sight and *voice* for control). As an **AI feature study** I prototyped runlogger / RunLoggerSWUI, and applied what I learned to build **GeoConverter Pro / GeoPrism JP** in Swift.
+Starting from RunLogger (GPS logging), I built **GeoDiveExa** (C#). I then developed, under contract, a **pedestrian navigation app for the visually impaired** (an iOS app that uses *image recognition* as a substitute for sight and *voice* for control). As an **AI feature study** I prototyped runlogger / RunLoggerSWUI, and applied what I learned to build **JP-GeoConverter Pro / JP-GeoPrism** in Swift.
 
 **UwView** has a separate origin: a large text viewer I first wrote in **C++** in 1995 (published on Japan's "Vector" archive), fully rebuilt in **C# / Avalonia** in 2026, and now extended into the high-speed **UwView Pro** and the sister comparison tool **UwDiff**.
 

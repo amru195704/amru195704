@@ -49,11 +49,11 @@ sudo snap install uwdiff                                                        
 
 | アプリ | 内容 | リンク |
 | --- | --- | --- |
-| **GeoConverter Pro** | 座標変換専用アプリ。世界測地系／平面直角座標系、セミダイナミック補正・定常時地殻変動補正に対応 | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
-| **GeoPrism JP** | 測地系のズレやジオイドを地図・ヒートマップで可視化する学習アプリ | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
+| **JP-GeoConverter Pro** | 座標変換専用アプリ。世界測地系／平面直角座標系、セミダイナミック補正・定常時地殻変動補正に対応 | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
+| **JP-GeoPrism** | 測地系のズレやジオイドを地図・ヒートマップで可視化する学習アプリ | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
 | **GeoDiveExa** | RTK-GNSS 対応の高精度位置調査アプリ（座標変換エンジンの原点） | [Web](https://y42u.net/tec001/) |
 
-> **GeoConverter Pro** と **GeoPrism JP** は、GeoDiveExa から抽出した座標変換エンジン **GeoCoreJP**（Swift Package）を共有しています。
+> **JP-GeoConverter Pro** と **JP-GeoPrism** は、GeoDiveExa から抽出した座標変換エンジン **GeoCoreJP**（Swift Package）を共有しています。
 
 ---
 
@@ -117,13 +117,13 @@ flowchart LR
     RL --> GDE["GeoDiveExa<br/>C# / .NET MAUI・RTK-GNSS"]
     GDE --> NAVI["視覚障害者向け歩行者ナビ（受託）<br/>画像認識＋音声操作・iOS"]
     GDE --> TEST["runlogger / RunLoggerSWUI<br/>AI機能テスト（Flutter / SwiftUI）"]
-    TEST --> SWIFT["GeoConverter Pro / GeoPrism JP<br/>Swift"]
+    TEST --> SWIFT["JP-GeoConverter Pro / JP-GeoPrism<br/>Swift"]
     UW1995["UwView 1995<br/>C++・大容量テキストビューア（Vector 公開）"] --> UW2026["UwView 2026<br/>C# / Avalonia・全面再構築（Vector公開）"]
     UW2026 --> UWPRO["UwView Pro<br/>C#・高速版（Polarで発売中）"]
     UW2026 --> UVD["UwDiff<br/>C# / Avalonia・比較ツール（2026-10 公開）"]
 ```
 
-RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後、受託で**視覚障害者向けの歩行者ナビ**（目の代わりに *画像認識*、操作は *音声* で行う iOS アプリ）を開発しました。さらに **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **GeoConverter Pro / GeoPrism JP** を作り込みました。
+RunLogger（GPS ログ）を土台に **GeoDiveExa**（C#）を開発。その後、受託で**視覚障害者向けの歩行者ナビ**（目の代わりに *画像認識*、操作は *音声* で行う iOS アプリ）を開発しました。さらに **AI 機能の検証**として runlogger / RunLoggerSWUI を試作し、その知見を活かして Swift で **JP-GeoConverter Pro / JP-GeoPrism** を作り込みました。
 
 **UwView** は源流が異なります。1995 年に **C++** で作った大容量テキストビューア（Vector で公開）を、2026 年に **C# / Avalonia** で全面再構築し、さらに高速版 **UwView Pro**、2つのファイルを比べる姉妹ツール **UwDiff** へと広げています。
 
