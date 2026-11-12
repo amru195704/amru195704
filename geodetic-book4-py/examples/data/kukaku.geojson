@@ -1,0 +1,5 @@
+{ "type": "FeatureCollection", "features": [
+ { "type": "Feature", "properties": { "name": "A-1" },
+   "geometry": { "type": "Polygon", "coordinates": [[[139.7514,35.6854],[139.7520,35.6854],[139.7520,35.6860],[139.7514,35.6860],[139.7514,35.6854]]] } },
+ { "type": "Feature", "properties": { "name": "BM1" },
+   "geometry": { "type": "Point", "coordinates": [139.7517,35.6857,10.5] } } ] }
