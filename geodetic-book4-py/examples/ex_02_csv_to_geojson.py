@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """2 章 CSV: 平面直角座標の CSV（補足ファイルつき）を読み、緯度経度に直して GeoJSON に書く。
 使い方: python3 ex_02_csv_to_geojson.py data/genba.csv /tmp/genba.geojson"""
 import os, sys

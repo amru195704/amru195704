@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P4-1: 逆変換を固定点反復で解く（架空テストデータ内蔵版）。
 
 第4章「逆変換を反復で解く」の教材。P3-2 と同じ順変換（グリッド補正）を使い、

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P1-2: 子午線弧長（赤道からの経線長）。GRS80。
 
 赤道から緯度 φ までの経線に沿った距離を、級数展開で求める。実装で使う

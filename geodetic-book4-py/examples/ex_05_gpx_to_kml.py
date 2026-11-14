@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """5 章 GPX → KML: どちらも WGS84 の緯度経度なので変換は要らない。高さの意味（GPX の ele は楕円体高か標高か）だけ補足ファイルで伝える。
 使い方: python3 ex_05_gpx_to_kml.py track.gpx /tmp/track.kml"""
 import os, sys

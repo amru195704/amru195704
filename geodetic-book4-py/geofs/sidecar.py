@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """補足ファイル `.acrs`（第4巻 付録 7-1）の読み書き。
 
 - 項目名は英語・日本語のどちらでも読める（読み込みで英語に正規化）。

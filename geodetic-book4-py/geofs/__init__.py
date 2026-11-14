@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """geofs — 第4巻の Python 例の共通土台（中間フォーマット GeoFeatureSet）。
 
 仕様: 『日本の測地系 データフォーマット編』付録 8（中間フォーマット GeoFeatureSet）

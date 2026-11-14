@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P3-1: パラメータファイル（.par）の読み込み。
 
 ヘッダ2行を飛ばし、「メッシュコード dB dL」を dict にする。

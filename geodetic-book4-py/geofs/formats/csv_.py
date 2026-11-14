@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """CSV（第4巻 2 章）⇄ GeoFeatureSet。点だけ。
 
 CSV は自分では何も持たない形式なので、座標参照系・軸・高さ・元期・文字コード（Ⓐ〜Ⓔ）を

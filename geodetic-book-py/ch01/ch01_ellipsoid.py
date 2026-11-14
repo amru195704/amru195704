@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P1-1: 楕円体の基本量（GRS80）。
 
 定義値（長半径 a と逆扁平率 1/f）から、短半径・離心率などの派生量を求める。

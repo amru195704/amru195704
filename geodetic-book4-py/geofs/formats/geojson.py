@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """GeoJSON（第4巻 4 章）⇄ GeoFeatureSet。
 
 RFC 7946 では座標は WGS84 の lon,lat（10 進度）固定。「実際の測地系」（JGD2011 など）は

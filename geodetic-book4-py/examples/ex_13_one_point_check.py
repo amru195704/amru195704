@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """13 章 1 点で確かめる: 自分の変換（geofs）を、国土地理院「平面直角座標への換算」の値 1 点と比べる。
 使い方: python3 ex_13_one_point_check.py   （地理院の値は tests/data/gsi_plane_rectangular.csv と同じ換算ページの 1 点）"""
 import os, sys

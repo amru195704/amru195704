@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """DXF（ASCII・第4巻 10 章）⇄ GeoFeatureSet。
 
 - 読む要素: POINT／TEXT・MTEXT（最近接の POINT の点名）／LINE／LWPOLYLINE／POLYLINE+VERTEX（閉じフラグで線か面）／

@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """形式ごとの Reader／Writer。どれも read_xxx(path, sidecar, params) -> FeatureSet、
 write_xxx(fs, path, **options) -> dict（出力側の補足ファイル）の形。"""
 from .csv_ import read_csv, write_csv

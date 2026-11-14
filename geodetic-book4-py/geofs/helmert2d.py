@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """任意座標 → 公共座標の位置合わせ（2D ヘルマート・4 パラメータ）。第4巻 10・11 章。
 
 X = a*x − b*y + tx

@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """WKT1（.prj・GeoPackage）と EPSG と CRS の対応（第4巻 付録 3）。GCVP の CRSWKT.swift と同じ対応表。"""
 from __future__ import annotations
 import re

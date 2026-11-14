@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P2-1: 緯度経度楕円体高(BLH) ⇔ 地心直交座標(XYZ)。GRS80。
 
 BLH→XYZ は閉形式。XYZ→BLH は緯度と曲率半径が循環するため反復で解く

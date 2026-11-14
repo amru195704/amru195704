@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """基盤地図情報（基本項目）GML（第4巻 7 章）→ GeoFeatureSet。入力のみ。
 
 - 国土地理院の FG-GML-*.zip（複数 XML）か、中の XML 1 つ。ストリーミング（iterparse）で読み、件数上限で止める。

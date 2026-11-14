@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """中間フォーマットの JSON 直列化 `.gfs.json`（仕様書 §2）。
 
 GeoJSON に似せているのは幾何の入れ子だけで、GeoJSON ではない。

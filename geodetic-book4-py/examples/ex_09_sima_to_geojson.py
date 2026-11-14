@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """本の例の形: 読む → 変換する → 書く の 3 行。
 
 SIMA（JGD2011 平面直角第9系・標高）を読み、JGD2011 の緯度経度に直して GeoJSON に書く。

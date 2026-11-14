@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """PLATEAU CityGML（第4巻 11 章）→ GeoFeatureSet。入力のみ・要素限定。v2 段階 C-3。
 
 lod0 の面（bldg:lod0RoofEdge／lod0FootPrint の gml:posList）と点（gml:Point）だけを読む。

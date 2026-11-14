@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """GeoFeatureSet → GeoFeatureSet の座標変換（仕様書 §3 の convert()）。
 
 Reader／Writer から切り離した独立の 1 段。頂点ごとに変換し、1 頂点でも失敗した地物は落として

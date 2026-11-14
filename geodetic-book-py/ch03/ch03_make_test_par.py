@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P3-0: テスト用パラメータファイル（.par）生成（架空・誇張値）。
 
 国土地理院の TKY2JGD.par と同じ体裁で、東京駅を含む親メッシュ 533946 の

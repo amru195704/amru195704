@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """中間フォーマット GeoFeatureSet のモデル（仕様書 §1）。
 
 原則: Reader／Writer は座標を動かさない。頂点は crs.system に応じて

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P9-1: パラメータファイル(.par) → SQLite DB 化。
 
 第9章「補正DBを作る」の教材。国土地理院と同形式の .par（P3-0 が生成した

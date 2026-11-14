@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """KML／KMZ（第4巻 5 章）⇄ GeoFeatureSet。
 
 KML は WGS84 の lon,lat[,alt] 固定（高さの基準は altitudeMode で「地表から」などが変わる。

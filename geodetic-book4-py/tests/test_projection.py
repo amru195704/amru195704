@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """平面直角座標の検算: tests/data/gsi_plane_rectangular.csv（地理院の値・19 系 75 点）。
 往復（緯度経度→XY→緯度経度）と地理院の GRS80 の XY を比べる。"""
 import csv, os, sys

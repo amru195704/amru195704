@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """GeoTIFF／COG（第4巻 12 章）→ GeoFeatureSet。座標のみ（TIFF は書き換えない）。v2 段階 C-1。
 
 TIFF のタグ: 256/257（幅・高さ）, 33550 ModelPixelScale, 33922 ModelTiepoint, 34264 ModelTransformation,

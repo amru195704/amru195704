@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P5-1: ジオイド高のバイリニア補間（架空テストデータ内蔵版）。
 
 ジオイド・モデルも格子（グリッド）で配られる。対象点を囲む4隅のジオイド高を

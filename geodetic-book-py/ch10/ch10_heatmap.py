@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P10-1: ヒートマップの縮約版（架空テストデータ内蔵版）。
 
 第10章「補正量を面で可視化する」の教材の縮約版。メッシュ内を粗い格子で走査し、

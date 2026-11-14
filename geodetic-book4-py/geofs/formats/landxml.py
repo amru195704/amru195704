@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """J-LandXML（第4巻 9 章）⇄ GeoFeatureSet。CgPoint（点）と PlanFeature の CoordGeom（線・面）。
 
 - 座標の順序は northing（北）→ easting（東）→ elev。中間の x(北)/y(東) とそのまま対応する。

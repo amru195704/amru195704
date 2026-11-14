@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P8-1: 検証の型（残差統計）（架空テストデータ内蔵版）。
 
 「正しく変換できたか」を1点ではなく、多数の点の残差統計（最大・平均・RMS）で

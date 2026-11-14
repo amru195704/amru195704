@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """Reader／Writer 共通の小道具。
 
 優先順は「形式が持つ情報 → 補足ファイル → params」。足りない追加情報（付録 7 の Ⓐ〜Ⓕ）は

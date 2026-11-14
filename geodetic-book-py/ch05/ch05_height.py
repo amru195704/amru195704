@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P5-2: 標高と楕円体高の変換 H = h − N（架空テストデータ内蔵版）。
 
 GNSSが返すのは楕円体高 h。地図や水準測量の高さは標高 H。両者はジオイド高 N

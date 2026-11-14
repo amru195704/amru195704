@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P1-4: ガウス・クリューゲル投影（平面直角座標）。GRS80。
 
 緯度経度 ⇔ 平面直角座標(X=北, Y=東) の順・逆変換をクリューゲル級数で行う。

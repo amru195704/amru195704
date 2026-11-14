@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P7-1: 境界（4隅欠損）メッシュの扱い（架空テストデータ内蔵版）。
 
 第7章「境界の問題と品質指標」の教材。4隅の一部が欠けたメッシュで、

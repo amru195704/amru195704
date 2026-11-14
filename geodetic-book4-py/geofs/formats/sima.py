@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """SIMA（第4巻 9 章）⇄ GeoFeatureSet。点（A01）と区画（D00〜D99・B01）。
 
 SIMA は X=北・Y=東の投影座標で、測地系・系番号・高さの基準・元期は持たない（補足ファイルで補う）。

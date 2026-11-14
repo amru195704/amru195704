@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P6-1: 複数地震の発生順逐次適用（架空テストデータ内蔵版）。
 
 第6章「複数の地殻変動を積み重ねる」の教材。2つの地震補正グリッドを用意し、

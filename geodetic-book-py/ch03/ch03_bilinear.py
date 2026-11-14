@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P3-2: メッシュコード算出＋バイリニア補間（架空テストデータ内蔵版）。
 
 第3章「グリッド補正の実装」の教材。GeoCoreJP（Swift/C#）のソースではなく、

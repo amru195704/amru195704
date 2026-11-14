@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """Shapefile（第4巻 3 章）⇄ GeoFeatureSet。.shp/.shx/.dbf/.prj/.cpg を ZIP 1 つで扱う（.shp 単体も可）。
 
 - 座標は .shp の中では常に (X=東, Y=北) の順。平面直角の「X=北」とは逆なので、読みで x(北)/y(東) に入れ替え、書きで戻す

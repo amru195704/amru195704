@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """LAS（非圧縮点群・第4巻 11 章）⇄ GeoFeatureSet。v2 段階 C-2。LAZ は対象外。
 
 読み: LAS 1.2〜1.4、点レコード形式 0〜10（X/Y/Z は先頭 12 バイト共通）。VLR 2112（OGC WKT）か 34735（GeoKey）→ crs。

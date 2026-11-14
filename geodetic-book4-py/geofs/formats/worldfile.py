@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """ワールドファイル（.tfw/.jgw/.pgw/.wld・第4巻 12 章）⇄ GeoFeatureSet。座標のみ（画像は触らない）。v2 段階 C-1。
 
 6 行: A（x 方向の画素サイズ）, D, B（回転）, E（y 方向の画素サイズ・通常は負）, C（左上画素中心の X=東）, F（同 Y=北）。

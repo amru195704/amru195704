@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """5 章 KMZ: zip の中の doc.kml を読んで、何が入っているかを数える（読むだけ）。
 使い方: python3 ex_05_kmz_read.py route.kmz"""
 import os, sys

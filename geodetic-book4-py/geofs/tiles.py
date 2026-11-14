@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """Web メルカトル（EPSG:3857）とタイル番号の計算（第4巻 12 章）。v2 段階 C-4。計算のみ。"""
 from __future__ import annotations
 import math

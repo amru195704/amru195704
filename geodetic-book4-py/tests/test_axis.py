@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """補足ファイル `axis` の区分 A／B／C（付録 7-1・8-4）の動作確認。
 B: SIMA・GeoJSON は補足ファイルの axis が既定より優先（警告をログに）／C: GPX・KML は無視（警告をログに）。"""
 import os, sys, tempfile

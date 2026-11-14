@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P1-3: 緯度1度・経度1度あたりの地上距離。GRS80。
 
 緯度が上がるほど「経度1度の距離」が縮み、「緯度1度の距離」はわずかに伸びる。

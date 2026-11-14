@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """GPX（第4巻 5 章）⇄ GeoFeatureSet。
 
 GPX 1.1 は WGS84 の lat/lon 属性固定、ele は規格上は楕円体高だが実機は標高を書くことも多い

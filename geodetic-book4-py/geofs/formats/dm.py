@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """DM（国土基本図図式・拡張 DM データファイル、第4巻 10 章）→ GeoFeatureSet。入力のみ・点と線。v2 段階 C-3。
 
 【暫定】実データでの検証前の実装。公共測量標準図式の DM ファイル（固定長テキスト）のうち、

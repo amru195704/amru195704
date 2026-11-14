@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """法務省 登記所備付地図データ（地図XML・第4巻 11 章）→ GeoFeatureSet。入力のみ。
 
 - ヘッダ: <座標系>（「公共座標N系」か「任意座標系」）・<測地系判別>（測地成果2000／2011／任意）・<地図名>・<市区町村名>。

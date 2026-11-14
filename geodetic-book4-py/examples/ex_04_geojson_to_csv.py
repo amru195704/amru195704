@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """4 章 GeoJSON: 緯度経度の GeoJSON を読み、平面直角第9系の CSV に書く（面は頂点を点として出る）。
 使い方: python3 ex_04_geojson_to_csv.py data/kukaku.geojson /tmp/kukaku.csv"""
 import os, sys

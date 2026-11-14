@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Y4U
 """P2-2: ヘルマート7パラメータ変換（ブルサ・ウォルフ）。
 
 XYZ に平行移動3・回転3・スケール1の剛体変換を掛ける。地図全体を一様に
