@@ -58,15 +58,16 @@ A family of apps specialized for Japan's geodetic systems, supporting fieldwork 
 
 ## 📚 Kindle books (now on sale)
 
-Three books — read / build / play — explaining how Japan's geodetic systems work, now available on Kindle (in Japanese, Kindle Unlimited eligible):
+Four books — read / build / play / handle — explaining how Japan's geodetic systems work, now available on Kindle (in Japanese, Kindle Unlimited eligible):
 
 - [*Understanding Japan's Geodetic Systems*](https://www.amazon.co.jp/dp/B0H971W8WX) — why Japan's map coordinates keep shifting, told as one story from TOKYO to JGD2024
 - [*Understanding Japan's Geodetic Systems — Implementation*](https://www.amazon.co.jp/dp/B0H97LPNH3) — build a coordinate-conversion engine in Python and match GSI's official results to 1 mm
-- [*Japan's Geodetic Systems Q&A*](https://www.amazon.co.jp/dp/B0HF4SJC1L) — 100 quiz questions on maps, GPS and coordinates; test yourself, then dive into vol. 1
+- [*Japan's Geodetic Systems Q&A*](https://www.amazon.co.jp/dp/B0HF4SJC1L) — 147 quiz questions (2nd edition) on maps, GPS and coordinates; test yourself, then dive into vol. 1
+- [*Japan's Geodetic Systems — Data Formats*](https://www.amazon.co.jp/dp/B0HRDW8RQM) — which "ruler" are the coordinates in that file written with? CSV, Shapefile, SIMA, DXF and more, compared format by format
 
-> 🎁 All three volumes are included in **Kindle Unlimited** (free to read for members).
+> 🎁 All four volumes are included in **Kindle Unlimited** (free to read for members).
 
-The test Python scripts used in the "Run it in Python to verify" sections of the Implementation volume are published under [geodetic-book-py](geodetic-book-py/README.md).
+The test Python scripts used in the "Run it in Python to verify" sections of the Implementation volume are published under [geodetic-book-py](geodetic-book-py/README.md), and the code (`geofs`) for the Data Formats volume under [geodetic-book4-py](geodetic-book4-py/README.md) (both MIT-licensed).
 
 ---
 

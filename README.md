@@ -59,18 +59,19 @@ sudo snap install uwdiff                                                        
 
 ## 📚 Kindle本（発売中）
 
-日本の測地系の仕組みを解説する「日本の測地系」シリーズ3冊（読む・作る・あそぶ）を、Kindleで発売中です（Kindle Unlimited 対象）。
+日本の測地系の仕組みを解説する「日本の測地系」シリーズ4冊（読む・作る・あそぶ・扱う）を、Kindleで発売中です（Kindle Unlimited 対象）。
 
 | 書籍 | 内容 | リンク |
 | --- | --- | --- |
 | **『日本の測地系がわかる本』**（本編） | 地図の座標はなぜズレるのか。TOKYOからJGD2024まで、百数十年の「座標の引っ越し」を1本の物語で | [Amazon](https://www.amazon.co.jp/dp/B0H971W8WX) |
 | **『日本の測地系がわかる本（実装編）』** | 座標変換エンジンをPythonで作って、国土地理院の計算と1mmで一致させる | [Amazon](https://www.amazon.co.jp/dp/B0H97LPNH3) |
-| **『日本の測地系Q&A』** | 地図・GPS・座標の「なぜ？」がわかる100問。クイズで腕試しする第3巻 | [Amazon](https://www.amazon.co.jp/dp/B0HF4SJC1L) |
+| **『日本の測地系Q&A』** | 地図・GPS・座標の「なぜ？」がわかる147問（第2版）。クイズで腕試しする第3巻 | [Amazon](https://www.amazon.co.jp/dp/B0HF4SJC1L) |
+| **『日本の測地系 データフォーマット編』** | そのファイルの座標は、どの「ものさし」で書かれているか。CSV・Shapefile・SIMA・DXF など、形式ごとに座標の読み方と補い方を比べる第4巻 | [Amazon](https://www.amazon.co.jp/dp/B0HRDW8RQM) |
 
-> 🎁 3冊すべて **Kindle Unlimited 対象**（会員は追加料金なしで読めます）。
+> 🎁 4冊すべて **Kindle Unlimited 対象**（会員は追加料金なしで読めます）。
 > 🧩 腕試し用の試食10問（無料・note）: [【地図クイズ10問】緯度1度は何メートル？](https://note.com/amru1957/n/n9cba2ac8d167)
 
-「実装編」の各章「Pythonで動かして確かめる」節で使うテスト用 Python スクリプトを [geodetic-book-py](geodetic-book-py/README.md) 以下に公開しています。
+「実装編」の各章「Pythonで動かして確かめる」節で使うテスト用 Python スクリプトを [geodetic-book-py](geodetic-book-py/README.md) 以下に、「データフォーマット編」の各章「Python で確かめる」と付録 8 で使うコード（`geofs`）を [geodetic-book4-py](geodetic-book4-py/README.md) 以下に公開しています（どちらも MIT ライセンス）。
 
 ---
 
