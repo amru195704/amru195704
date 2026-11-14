@@ -48,7 +48,7 @@ A family of apps specialized for Japan's geodetic systems, supporting fieldwork 
 
 | App | Description | Links |
 | --- | --- | --- |
-| **JP-GeoConverter Pro** | Dedicated coordinate-conversion app. World geodetic / Japan plane-rectangular systems, with semi-dynamic and steady-state crustal-movement correction | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
+| **JP-GeoConverter Pro** | Dedicated coordinate-conversion app. World geodetic / Japan plane-rectangular systems, with semi-dynamic and steady-state crustal-movement correction. File-format conversion reads 18 formats and writes 13 — over 600,000 combinations of format and coordinate system | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
 | **JP-GeoPrism** | Learning app that visualizes datum shifts and the geoid on maps and heatmaps | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
 | **GeoDiveExa** | High-precision RTK-GNSS survey app (the origin of the coordinate-conversion engine) | [Web](https://y42u.net/tec001/) |
 
@@ -92,7 +92,8 @@ Free pieces on note.com (in Japanese):
 | [**UwView**](https://github.com/amru195704/UwView) | Viewer for gigantic text and logs, plus the `uvf` CLI (Avalonia / .NET 10 · Windows / macOS / Linux / WASM). Automatic encoding detection, full-text search, real-time tail. **Verified up to 258.68 GB / 4,509,830,821 lines** (OpenStreetMap for the whole USA expanded to XML, measured with UwView Pro) | [UwView License](https://github.com/amru195704/UwView/blob/main/LICENSE) |
 | [**UwDiff**](https://github.com/amru195704/UwDiff) | Tool for comparing two files or folders, plus the `uvd` CLI (.NET 10 · Windows / macOS / Linux). Key matching of two 10 GB CSV files in about 21 s, two 10 GB text files in about 21 s (measured on a Mac mini M4; [full tables, conditions and losses](https://github.com/amru195704/UwDiff/blob/main/docs/benchmarks.md)) | [UwDiff License](https://github.com/amru195704/UwDiff/blob/main/LICENSE) |
 | [homebrew-uwview](https://github.com/amru195704/homebrew-uwview) · [scoop-uwview](https://github.com/amru195704/scoop-uwview) · [snap-uwview](https://github.com/amru195704/snap-uwview) | Package definitions for installing UwView with Homebrew, Scoop and the Snap Store | — |
-| [**geodetic-book-py**](geodetic-book-py/README.md) | Python scripts for checking the results in *Understanding Japan's Geodetic Systems — Implementation* | — |
+| [**geodetic-book-py**](geodetic-book-py/README.md) | Python scripts for checking the results in *Understanding Japan's Geodetic Systems — Implementation* | MIT |
+| [**geodetic-book4-py**](geodetic-book4-py/README.md) | Python examples for *Japan's Geodetic Systems — Data Formats* (the `geofs` intermediate format, per-chapter examples, readers/writers) | MIT |
 | [**runlogger**](https://github.com/amru195704/runlogger) | A Flutter test app partially recreating the old Objective-C iOS app "RunLogger" (for evaluating AI features) | Open source |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | The same "RunLogger" partially recreated in SwiftUI (for evaluating AI features) | Open source |
 

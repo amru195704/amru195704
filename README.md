@@ -49,7 +49,7 @@ sudo snap install uwdiff                                                        
 
 | アプリ | 内容 | リンク |
 | --- | --- | --- |
-| **JP-GeoConverter Pro** | 座標変換専用アプリ。世界測地系／平面直角座標系、セミダイナミック補正・定常時地殻変動補正に対応 | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
+| **JP-GeoConverter Pro** | 座標変換専用アプリ。世界測地系／平面直角座標系、セミダイナミック補正・定常時地殻変動補正に対応。ファイルフォーマット変換は 18 形式を読み 13 形式に書き出し、形式と座標系の組み合わせで 60 万通り以上に対応 | [App Store](https://apps.apple.com/jp/app/geoconverter-pro/id6761740960) ・ [Web](https://gcpro.y42u.net/) |
 | **JP-GeoPrism** | 測地系のズレやジオイドを地図・ヒートマップで可視化する学習アプリ | [App Store](https://apps.apple.com/app/id6780149823) ・ [Web](https://gmp.y42u.net/) |
 | **GeoDiveExa** | RTK-GNSS 対応の高精度位置調査アプリ（座標変換エンジンの原点） | [Web](https://y42u.net/tec001/) |
 
@@ -97,7 +97,8 @@ sudo snap install uwdiff                                                        
 | [**UwView**](https://github.com/amru195704/UwView) | 巨大テキスト・ログのビューア＋CLI `uvf`（Avalonia / .NET 10・Windows / macOS / Linux / WASM）。文字コード自動判定・全文検索・リアルタイム Tail。実測した最大は **258.68GB・4,509,830,821行**（OpenStreetMap アメリカ全土の XML 展開・UwView Pro で計測） | [UwView License](https://github.com/amru195704/UwView/blob/main/LICENSE) |
 | [**UwDiff**](https://github.com/amru195704/UwDiff) | 2つのファイル・フォルダの比較ツール＋CLI `uvd`（.NET 10・Windows / macOS / Linux）。CSV 10GB × 2本のキー照合 約21秒・テキスト 10GB × 2本 約21秒（Mac mini M4 の実測。[条件と負けを含む全表](https://github.com/amru195704/UwDiff/blob/main/docs/benchmarks.md)） | [UwDiff License](https://github.com/amru195704/UwDiff/blob/main/LICENSE) |
 | [homebrew-uwview](https://github.com/amru195704/homebrew-uwview) ・ [scoop-uwview](https://github.com/amru195704/scoop-uwview) ・ [snap-uwview](https://github.com/amru195704/snap-uwview) | UwView を Homebrew・Scoop・Snap Store で入れるためのパッケージ定義 | — |
-| [**geodetic-book-py**](geodetic-book-py/README.md) | 『日本の測地系がわかる本（実装編）』の確認用 Python スクリプト | — |
+| [**geodetic-book-py**](geodetic-book-py/README.md) | 『日本の測地系がわかる本（実装編）』の確認用 Python スクリプト | MIT |
+| [**geodetic-book4-py**](geodetic-book4-py/README.md) | 『日本の測地系 データフォーマット編』の Python 例（中間フォーマット `geofs` と各章の例・Reader／Writer） | MIT |
 | [**runlogger**](https://github.com/amru195704/runlogger) | 旧 Objective-C 製 iOS アプリ「RunLogger」の機能を一部再現した Flutter 製テストアプリ（AI 機能の検証目的） | オープンソース |
 | [**RunloggerSWUI**](https://github.com/amru195704/RunloggerSWUI) | 同「RunLogger」を SwiftUI で一部再現したテストアプリ（AI 機能の検証目的） | オープンソース |
 
